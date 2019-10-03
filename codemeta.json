@@ -1,58 +1,36 @@
 {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "identifier": "a unique identifier",
-    "description": "a brief description of the software",
-    "applicationCategory" : "Type of software application, e.g. 'Game, Multimedia'",
-    "name": "software name",
-    "codeRepository":  "URL to related resources",
-    "domain" : "Memory Management",
-    "license": "info about the license",
-    "version": "X.X",
+    "identifier": "Softi",
+    "description": "Code developed for the CEP by Tonina Starita in 1968, to smooth a curve",
+    "applicationCategory" : "numerical analisys",
+    "name": "Softi",
+    "codeRepository": "https://github.com/Unipisa/Softi",
+    "license": "to be defined",
+    "version": "V4",
     "keywords" : [
-        "tag for the software", 
-        "other tag"
+        "curve smoothing", 
+        "CEP",
+        "Calcolatrice Elettronica Pisana",
+        "Fortran"
     ],
-    "releaseNotes" : "release notes and comments",
-    "funding" : "software funded by...(e.g. specific grant)",
-    "runtimePlatform" : "operating system",
-    "softwareRequirements" : ["dependencies and other requirements"],
-    "developmentStatus" : "from https://www.repostatus.org/ e.g. Unsupported", 
-    "dateCreated" : "YYYY-MM-DD",
-    "datePublished" : "YYYY-MM-DD",
-    "relatedLink" : ["https://..", "http://.."],
-    "programmingLanguage" : "main programming language",
-     "isPartOf" : "maybe the software is part of some project",
-    "referencePublication" : [ 
-      {
-          "@type": "ScholarlyArticle",
-          "idendifier": "https://doi.org/xx.xxxx/xxxx.xxxx.xxxx",
-          "name": "title of publication"
-      }
-      ],
+    "runtimePlatform" : "CEP: Calcolatrice Elettronica Pisana",
+    "softwareRequirements" : ["CEP Fortran compiler"],
+    "developmentStatus" : "Unsupported", 
+    "dateCreated" : "1968-02-13",
+    "datePublished" : "2019-10-03",
+    
+    "relatedLink" : ["https://www.isti.cnr.it/about.php#CEP"],
+    "programmingLanguage" : "CEP Fortran",
     "author": [
       {
         "@type": "Person",
-        "givenName": "Given",
-        "familyName": "Family",
-        "affiliation" : "affiliation at the time of development",
-        "email": "given.family@org.com"
+        "givenName": "Antonina",
+        "familyName": "Statita",
+        "affiliation" : "Istituto di Eleborazione dell`Informazione",
+        "email": "starita@di.unipi.it"
       }
-    ],
-    "contributor": [
-    {
-        "@type": "Person",
-        "givenName": "Given",
-        "familyName": "Family",
-        "affiliation" : "affiliation at the time of development",
-        "email": "given.family@org.com"
-    }
-    ],
-    "@type": "Person",
-    "givenName": "Given",
-    "familyName": "Family",
-    "affiliation" : "affiliation at the time of development",
-    "email": "given.family@org.com"
+    ]
 }
 
 
