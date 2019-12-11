@@ -2,6 +2,9 @@
 
 ### Code developed for the CEP by Tonina Starita in 1968, to smooth a curve.
 
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/Unipisa/Softi/)](https://archive.softwareheritage.org/browse/origin/https://github.com/Unipisa/Softi/)
+
+
 -------------------
 
 This repository contains the 
